@@ -1,15 +1,12 @@
-// import { useState } from 'react'
-import Dashboard from './pages/dashboard';
-import './App.css';
+import CryptoDashboard from "./pages/CryptoDashboard";
+import "./App.css";
 
 function App() {
-
-
   return (
     <>
-      <Dashboard />
+      <CryptoDashboard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
